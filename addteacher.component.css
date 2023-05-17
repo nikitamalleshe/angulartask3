@@ -1,0 +1,43 @@
+table {
+    width: 100%;
+    border: 1px solid groove;
+    margin-top: 20px
+  }
+  table thead th 
+  { 
+    color: red; font-size:10pt; 
+}
+
+  .search{
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 150px;
+  }
+  .search1{
+    
+    width: 20%;
+    margin-left: 430px;
+    margin-top: -50px;
+  }
+  .btn{
+    margin-left: 150px;
+    margin-top: -45px;
+    width:130px
+  }
+  .all{
+    margin-left: -970px;
+    margin-bottom: -30px;
+  }
+  .card-body{
+    border-collapse:collapse;
+    box-shadow: 0px 2px 10px rgba(58, 53, 65, 0.1);
+    border-radius: 6px;
+    width: 1200px;
+   margin-left:300px;
+   margin-top:-10px;
+  
+  }
+  .detail{
+    margin-left: 300px;
+    margin-top: 200px;
+  }

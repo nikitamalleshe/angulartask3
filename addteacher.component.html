@@ -1,0 +1,59 @@
+<div class="detail">
+  <h4><b>Teacher</b></h4>
+  <p>Home < All Teacher</p>
+
+</div>
+<div class="row">
+  <div class="col-sm-3">
+<div class="card mb-3 border-0">
+<div class="card-body text-center">   
+
+<div class="all">
+ <b> <h3>All Teachers Data</h3></b>
+</div>
+<div class="search">
+  <input type="search" class="form-control rounded" placeholder="Search By Name" aria-label="Search" aria-describedby="search-addon" />
+  <span class="input-group-text border-0" id="search-addon">
+    <i class="fas fa-search"></i>
+  </span>
+</div>
+  
+<div class="search1">
+  <input type="search" class="form-control rounded" placeholder="Select class" aria-label="Search" aria-describedby="search-addon" />
+  <span class="input-group-text border-0" id="search-addon">
+    <i class="fas fa-search"></i>
+  </span>
+  <div class="btn">
+    <button type="button" class="btn btn-danger">Search</button>
+  </div>
+</div>
+     <div class="container">
+    <table class="table ">
+      <thead>
+          <tr>
+            <th >Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Class</th>
+            <th>Subject</th>
+            <th>Address</th>
+            <th>Date of Birth</th>
+            <th>phone</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let data of datas">
+          <td>{{ data.id }}</td>
+          <td>{{ data.name }}</td>
+          <td>{{ data.gender }}</td>
+          <td>{{ data.class }}</td>
+          <td>{{ data.subject }}</td>
+          <td>{{ data.Address }}</td>
+          <td>{{ data.Dateofbirth }}</td>
+          <td>{{ data.phone }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+</div></div></div>
